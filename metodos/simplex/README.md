@@ -12,13 +12,13 @@ Este é um tipo de problema, é identificado quando as restrições do exercíci
 
 Os passos para a solução deste tipo de problema são os seguintes:
 
-- 1. Forma padrão
+- 1 Forma padrão
   - 1.1. Passar todas as inequações para equações;
   - 1.2. Caso o exercício seja de minimização, pode-se multiplicar a Função objetivo por `-1` (Isto facilita o processo).
-- 2. Construir a tabela simplex;
+- 2 Construir a tabela simplex;
   - 2.1. Pegar todos os valores presentes nas equações geradas no passo anterior, e colocar em uma matriz
   - 2.2. `Sobre a base`: A matriz funciona através de uma base, lembre-se que, para entrar na base, deve-se verificar qual coluna tem o valor `1` nas variáveis auxiliares da linha que está sendo montada.
-- 2.  Realizar as iterações
+- 2  Realizar as iterações
   - 2.1. Definição do pivô: Aqui é necessário realizar a busca pela coluna da Função objetivo que contenha o maior valor, após isto, busque nesta coluna, o valor que ao dividir o RHS, tem o menor valor (`Cuidado, os valores não podem ser menores ou iguais a zero`).
   - 2.2. Após a definição do pivô, crie uma nova tabela, nesta copie todo o conteúdo da tabela simplex, exceto, a linha onde está o pivô, esta deve ser inserida com o nome da coluna onde ele está, e seus valores devem ser todos divididos pelo próprio pivô;
   - 2.3. Agora, será necessário fazer com que, a coluna onde estava o pivô na tabela anterior, fique com todos os valores zero e apenas o próprio pivô com valor um (Isto por conta de você ter passado todos os valores da linha do pivô divididos por ele mesmo), para fazer isto, multiplique a linha do pivô da nova matriz, por um valor que, ao somar o resultado desta, o valor da coluna onde estava o pivô seja igual a zero. Repita isto para todas as linhas.
