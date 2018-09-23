@@ -23,3 +23,8 @@ Os passos para a solução deste tipo de problema são os seguintes:
   - 2.2. Após a definição do pivô, crie uma nova tabela, nesta copie todo o conteúdo da tabela simplex, exceto, a linha onde está o pivô, esta deve ser inserida com o nome da coluna onde ele está, e seus valores devem ser todos divididos pelo próprio pivô;
   - 2.3. Agora, será necessário fazer com que, a coluna onde estava o pivô na tabela anterior, fique com todos os valores zero e apenas o próprio pivô com valor um (Isto por conta de você ter passado todos os valores da linha do pivô divididos por ele mesmo), para fazer isto, multiplique a linha do pivô da nova matriz, por um valor que, ao somar o resultado desta, o valor da coluna onde estava o pivô seja igual a zero. Repita isto para todas as linhas.
   - 2.4. Por fim, verifique se após realizar o passo `2.3` na linha da função objetivo, os valores desta linha são iguais ou menores que zero, caso não, repita todo o processo de iteração sobre esta tabela que foi gerada.
+
+
+## Sobre
+
+Estas são anotações que fiz nas aulas, caso não tenha entendido, podemos discutir para melhorar cada um dos passos que descrevi assima :airplane:
