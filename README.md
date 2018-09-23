@@ -1,3 +1,9 @@
-# Linear optimization :rocket:
+# Linear optimization. Toolbox :package:
 
-Exercícios e anotações de programação linear.
+Repositório para centralizar meus estudos de otimização linear.
+
+Aqui basicamente serão colocados os seguintes conteúdos:
+
+- Otimização gráfica;
+- Otimização utilizando simplex;
+- Aplicações do Solver.
