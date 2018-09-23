@@ -24,6 +24,13 @@ Os passos para a solução deste tipo de problema são os seguintes:
   - 3.3. Agora, será necessário fazer com que, a coluna onde estava o pivô na tabela anterior, fique com todos os valores zero e apenas o próprio pivô com valor um (Isto por conta de você ter passado todos os valores da linha do pivô divididos por ele mesmo), para fazer isto, multiplique a linha do pivô da nova matriz, por um valor que, ao somar o resultado desta, o valor da coluna onde estava o pivô seja igual a zero. Repita isto para todas as linhas.
   - 3.4. Por fim, verifique se após realizar o passo `2.3` na linha da função objetivo, os valores desta linha são iguais ou menores que zero, caso não, repita todo o processo de iteração sobre esta tabela que foi gerada.
 
+## Exercícios :boom:
+
+Os exercícios resolvidos, estão no diretório `src`, e são separados pelos seguintes tipos:
+- Sem variáveis artificiais (sem_artificiais);
+- Com variáveis artificiais (com_artificiais);
+
+Todos eles são resolvidos utilizando Javascript, assim, eles devem ser utilizados como guia para sua solução.
 
 ## Sobre
 
