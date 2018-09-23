@@ -1,4 +1,4 @@
-# Linear optimization. Toolbox :package:
+# Linear optimization toolbox :package:
 
 Repositório para centralizar meus estudos de otimização linear.
 
