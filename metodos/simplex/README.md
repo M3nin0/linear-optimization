@@ -40,4 +40,4 @@ Todos eles são resolvidos utilizando Javascript, assim, eles devem ser utilizad
 
 ## Sobre
 
-Estas são anotações que fiz nas aulas, caso não tenha entendido, podemos discutir para melhorar cada um dos passos que descrevi assima :airplane:
+Estas são anotações que fiz nas aulas, caso não tenha entendido, podemos discutir para melhorar cada um dos passos que descrevi acima :airplane:
