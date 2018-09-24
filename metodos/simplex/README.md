@@ -34,7 +34,7 @@ Os exercícios resolvidos, estão no diretório `src`, e são separados pelos se
 - Sem variáveis artificiais (sem_artificiais);
 - Com variáveis artificiais (com_artificiais);
 
-Há também exercícios resolvidos pelo [@kyassunaga](!https://github.com/kyassunaga)
+Há também exercícios resolvidos pelo [@kyassunaga](https://github.com/kyassunaga)
 
 Todos eles são resolvidos utilizando Javascript, assim, eles devem ser utilizados como guia para sua solução.
 
